@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Example</title>
+    <script>
+        function AddNumbers()
+        {
+            varNum1 = document.getElementById('txtOne').value;
+            varNum2 = document.getElementById('txtTwo').value;
+            varNum3 = varNum1 + varNum2;
+            
+            
+        }
+    </script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <input type="text" id="txtOne">
+            </td>
+            <td>
+                +
+            </td>
+            <td>
+                <input type="text" id="txtTwo">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button onclick="AddNumbers()">CALCULATE
+                </button>
+            </td>
+            <td>
+                <input type="text" id="txtAns">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
